@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin: auto;
+    width: 100%;
+    min-width: 1500px;
+}
+
+.header {
+    background-color: lightskyblue;
+    //position: absolute;
+    //height: 600px;
+    //width: 100%;
+    //text-align: center;
+}
+
+.img, .info {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img {
+    width: 450px;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 20px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 3px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.developer {
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.work {
+    margin-top: 35px;
+}
+
+.info {
+    margin-left: 35px;
+    width: 600px;
+    margin-right: 100px;
+}
+
+.answer, .question {
+    display: inline-block;
+}
+
+.question {
+
+}
+
+.answer {
+    margin-left: 20px;
+}
+
+.myPhoto {
+    margin-top: 35px;
+    width: 250px;
+    height: 250px;
+    border-radius: 160px 160px 160px 160px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.info-about-me {
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.left-col {
+    width: 500px;
+}
+
+.line {
+    width: 400px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    border-width: 1px;
+    border-color: lightskyblue;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+}
+
+.experience {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: lightskyblue;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.block-experience {
+    border-left: 1px solid grey;
+    height: 250px;
+}
+
+.normal-text {
+    margin-left: 35px;
+}
+
+.normal-bold-text {
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+.block2 {
+    margin-top: 65px;
+}
+
+.block-language {
+    height: 250px;
+    margin-left: 35px;
+}
+
+.icon-language {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.russian {
+    border: 4px solid rgba(87, 104, 106, 0.95);
+    width: 120px;
+    height: 120px;
+    border-radius: 160px 160px 160px 160px;
+    display: inline-block;
+    text-align: center;
+}
+
+.english {
+    border-left: 4px solid #dcdcdc;
+    border-top: 4px solid #dcdcdc;
+    border-right:4px solid #dcdcdc;
+    border-bottom: 4px solid rgba(87, 104, 106, 0.95);
+    width: 120px;
+    height: 120px;
+    border-radius: 160px 160px 160px 160px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.language-text {
+    margin-top: 45px;
+}
+
+.icon-light {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+}
+
+.block-skills {
+    height: 250px;
+    margin-left: 35px;
+}
+
+.dark-point {
+    border-radius: 160px 160px 160px 160px;
+    border: 5px solid rgba(87, 104, 106, 0.95);
+    width: 3px;
+    height: 3px;
+    background-color: rgba(87, 104, 106, 0.95);
+    display: inline-block;
+}
+
+.light-point {
+    border-radius: 160px 160px 160px 160px;
+    border: 5px solid #dcdcdc;
+    width: 3px;
+    height: 3px;
+    background-color: #dcdcdc;
+    display: inline-block;
+}
+
+.right-col {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.icon-hat {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+}
+
+.block-qualities {
+    height: 250px;
+}
+
+.icon-like {
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+}
+
+.block5 {
+    margin-top: 65px;
+}
+
+.block-interests {
+    margin-left: 35px;
+    height: 250px;
+}
+
+.icon-world {
+    width: 25px;
+    height: 25px;
+}
+
+.travel {
+    width: 120px;
+    height: 120px;
+    border-radius: 160px 160px 160px 160px;
+}
+
+.resin {
+    width: 120px;
+    height: 120px;
+    border-radius: 160px 160px 160px 160px;
+}
+
+.travel-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.resin-block {
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.block-education {
+    height: 250px;
+    border-left: 1px solid grey;
+}
