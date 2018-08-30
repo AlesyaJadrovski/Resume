@@ -3,87 +3,55 @@
     padding: 0;
 }
 
-body {
-
-}
-
 .content {
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
-    min-width: 1500px;
+    width: 1100px;
     /*width: 100%;*/
     /*min-width: 1500px;*/
 }
 
-.header {
-    background-image: url("img/mount.jpg");
-    //opacity: 0.2;
-    //position: absolute;
-    //height: 600px;
-    width: 100%;
-    height: auto;
-    //text-align: center;
-}
-
-.about-me_header {
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    min-width: 1500px;
-}
-
-.img, .info {
-    display: inline-block;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
 .img {
-    width: 450px;
-    margin-left: 150px;
+    width: 500px;
+    height: 380px;
     text-align: center;
-    padding-top: 20px;
-    border-style: solid;
-    border-color: grey;
-    border-width: 3px;
+    background-color: #4a4a4a;
+    color: white;
 }
 
 .name {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .developer {
-    font-size: 25px;
-    margin-bottom: 35px;
+    font-size: 20px;
 }
 
 .work {
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .info {
     margin-left: 35px;
-    width: 600px;
+    width: 500px;
     margin-right: 100px;
+    line-height: 1.5;
+    margin-bottom: 55px;
+    margin-top: 45px;
 }
 
 .answer, .question {
     display: inline-block;
 }
 
-.question {
-
-}
-
 .answer {
     margin-left: 20px;
 }
 
-.myPhoto {
+.my-photo {
     margin-top: 35px;
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 225px;
     border-radius: 160px 160px 160px 160px;
 }
 
@@ -91,21 +59,29 @@ li {
     list-style-type: none;
 }
 
-.info-about-me {
-    margin-left: 150px;
-    margin-top: 40px;
-}
-
 .left-col {
     width: 500px;
+    float: left;
+    background-color: #7a7a7a;
+}
+
+.right-col {
+    width: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.block1 {
+    margin-left: 15px;
 }
 
 .line {
     width: 400px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     margin-left: 35px;
     border-width: 1px;
-    border-color: lightskyblue;
+    border-color: #4a4a4a;
 }
 
 .icon {
@@ -117,14 +93,17 @@ li {
 .experience {
     margin-bottom: 10px;
     margin-left: 10px;
-    color: lightskyblue;
+    color: black;
     font-size: 30px;
     display: inline-block;
 }
 
 .block-experience {
-    border-left: 1px solid grey;
-    height: 250px;
+    height: 330px;
+}
+
+.block-experience>ul>li {
+    line-height: 1.5;
 }
 
 .normal-text {
@@ -137,7 +116,8 @@ li {
 }
 
 .block2 {
-    margin-top: 65px;
+    margin-top: 45px;
+    margin-left: 15px;
 }
 
 .block-language {
@@ -163,7 +143,7 @@ li {
 .english {
     border-left: 4px solid #dcdcdc;
     border-top: 4px solid #dcdcdc;
-    border-right:4px solid #dcdcdc;
+    border-right: 4px solid #dcdcdc;
     border-bottom: 4px solid rgba(87, 104, 106, 0.95);
     width: 120px;
     height: 120px;
@@ -184,8 +164,16 @@ li {
 }
 
 .block-skills {
-    height: 250px;
+    height: 280px;
     margin-left: 35px;
+}
+
+.block-skills>ul>li {
+    line-height: 1.5;
+}
+
+.block3 {
+    margin-left: 15px;
 }
 
 .dark-point {
@@ -206,11 +194,6 @@ li {
     display: inline-block;
 }
 
-.right-col {
-    width: 500px;
-    margin-left: 100px;
-}
-
 .icon-hat {
     display: inline-block;
     width: 30px;
@@ -219,6 +202,11 @@ li {
 
 .block-qualities {
     height: 250px;
+    margin-left: 35px;
+}
+
+.block-qualities>ul>li {
+    line-height: 1.5;
 }
 
 .icon-like {
@@ -228,7 +216,7 @@ li {
 }
 
 .block5 {
-    margin-top: 65px;
+
 }
 
 .block-interests {
@@ -265,6 +253,6 @@ li {
 }
 
 .block-education {
-    height: 250px;
-    border-left: 1px solid grey;
+    height: 200px;
+    line-height: 1.5;
 }
