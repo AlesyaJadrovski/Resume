@@ -15,33 +15,33 @@
   float: left;
   background-color: #3d3e38;
 }
-.content .left-col .block0 .img {
+.content .left-col .about-me .about-me__content {
   width: 500px;
   height: 380px;
   text-align: center;
   background-color: #2c251b;
   color: white;
 }
-.content .left-col .block0 .img .my-photo {
+.content .left-col .about-me .about-me__content .about-me__photo {
   margin-top: 35px;
   width: 200px;
   height: 200px;
   border-radius: 160px 160px 160px 160px;
 }
-.content .left-col .block0 .img .work {
+.content .left-col .about-me .about-me__content .about-me__work {
   margin-top: 15px;
 }
-.content .left-col .block0 .img .work .name {
+.content .left-col .about-me .about-me__content .about-me__work .about-me__name {
   font-size: 30px;
 }
-.content .left-col .block0 .img .work .developer {
+.content .left-col .about-me .about-me__content .about-me__work .about-me__dev {
   font-size: 20px;
 }
-.content .left-col .block {
+.content .left-col .my-contacts {
   margin-left: 15px;
   margin-top: 20px;
 }
-.content .left-col .block .icon-contacts {
+.content .left-col .my-contacts .my-contacts__icon {
   background-image: url("img/person.png");
   width: 18px;
   height: 18px;
@@ -51,23 +51,23 @@
   margin-right: 10px;
   float: left;
 }
-.content .left-col .block .contacts {
+.content .left-col .my-contacts .my-contacts_text {
   margin-bottom: 10px;
   margin-left: 10px;
   color: black;
   font-size: 30px;
 }
-.content .left-col .block .white-text {
+.content .left-col .my-contacts .white-text {
   color: white;
 }
-.content .left-col .block .line {
+.content .left-col .my-contacts .line {
   width: 400px;
   margin-bottom: 20px;
   margin-left: 35px;
   border-width: 1px;
   border-color: #4a4a4a;
 }
-.content .left-col .block .info {
+.content .left-col .my-contacts .my-contacts__content {
   margin-left: 35px;
   width: 500px;
   margin-right: 100px;
@@ -75,14 +75,14 @@
   margin-bottom: 55px;
   color: white;
 }
-.content .left-col .block .info .question {
+.content .left-col .my-contacts .my-contacts__content .my-contacts__question {
   margin-right: 10px;
   float: left;
 }
-.content .left-col .block3 {
+.content .left-col .my-skills {
   margin-left: 15px;
 }
-.content .left-col .block3 .icon-light {
+.content .left-col .my-skills .my-skills__icon {
   background-image: url("img/light.png");
   float: left;
   width: 15px;
@@ -91,36 +91,36 @@
   margin-top: 10px;
   margin-right: 10px;
 }
-.content .left-col .block3 .skill-text {
+.content .left-col .my-skills .my-skills__text {
   margin-bottom: 10px;
   margin-left: 10px;
   color: black;
   font-size: 30px;
 }
-.content .left-col .block3 .white-text {
+.content .left-col .my-skills .white-text {
   color: white;
 }
-.content .left-col .block3 .line {
+.content .left-col .my-skills .line {
   width: 400px;
   margin-bottom: 20px;
   margin-left: 35px;
   border-width: 1px;
   border-color: #4a4a4a;
 }
-.content .left-col .block3 .block-skills {
+.content .left-col .my-skills .my-skills__content {
   height: 280px;
   margin-left: 35px;
 }
-.content .left-col .block3 .block-skills .skills {
+.content .left-col .my-skills .my-skills__content .my-skills__skills {
   color: white;
 }
-.content .left-col .block3 .block-skills .skills li {
+.content .left-col .my-skills .my-skills__content .my-skills__skills li {
   line-height: 1.5;
 }
-.content .left-col .block3 .block-skills .points li {
+.content .left-col .my-skills .my-skills__content .my-skills__levels li {
   line-height: 1.5;
 }
-.content .left-col .block3 .block-skills .points .dark-point {
+.content .left-col .my-skills .my-skills__content .my-skills__levels .dark-point {
   border-radius: 160px 160px 160px 160px;
   border: 5px solid rgba(87, 104, 106, 0.95);
   width: 3px;
@@ -128,7 +128,7 @@
   background-color: rgba(87, 104, 106, 0.95);
   display: inline-block;
 }
-.content .left-col .block3 .block-skills .points .light-point {
+.content .left-col .my-skills .my-skills__content .my-skills__levels .light-point {
   border-radius: 160px 160px 160px 160px;
   border: 5px solid #dcdcdc;
   width: 3px;
@@ -142,7 +142,7 @@
   margin-left: 100px;
   margin-top: 35px;
 }
-.content .right-col .block1 .icon-experience {
+.content .right-col .my-experience .my-experience__icon {
   background-image: url("img/file.png");
   float: left;
   width: 15px;
@@ -151,37 +151,37 @@
   margin-top: 10px;
   margin-right: 10px;
 }
-.content .right-col .block1 .experience {
+.content .right-col .my-experience .my-experience__text {
   margin-bottom: 10px;
   margin-left: 10px;
   color: black;
   font-size: 30px;
 }
-.content .right-col .block1 .experience li {
+.content .right-col .my-experience .my-experience__text li {
   line-height: 1.5;
 }
-.content .right-col .block1 .line {
+.content .right-col .my-experience .line {
   width: 400px;
   margin-bottom: 20px;
   margin-left: 35px;
   border-width: 1px;
   border-color: #4a4a4a;
 }
-.content .right-col .block1 .block-experience {
+.content .right-col .my-experience .my-experience__content {
   height: 330px;
 }
-.content .right-col .block1 .block-experience li {
+.content .right-col .my-experience .my-experience__content li {
   line-height: 1.5;
 }
-.content .right-col .block1 .block-experience .normal-bold-text {
+.content .right-col .my-experience .my-experience__content .normal-bold-text {
   font-weight: bold;
   margin-left: 35px;
 }
-.content .right-col .block1 .block-experience .normal-bold-text {
+.content .right-col .my-experience .my-experience__content .normal-bold-text {
   font-weight: bold;
   margin-left: 35px;
 }
-.content .right-col .block4 .icon-hat {
+.content .right-col .my-education .my-education__icon {
   width: 27px;
   height: 17px;
   background-size: cover;
@@ -190,38 +190,38 @@
   margin-right: 10px;
   float: left;
 }
-.content .right-col .block4 .education {
+.content .right-col .my-education .my-education__text {
   margin-bottom: 10px;
   margin-left: 10px;
   color: black;
   font-size: 30px;
 }
-.content .right-col .block4 .line {
+.content .right-col .my-education .line {
   width: 400px;
   margin-bottom: 20px;
   margin-left: 35px;
   border-width: 1px;
   border-color: #4a4a4a;
 }
-.content .right-col .block4 .block-education {
+.content .right-col .my-education .my-education__content {
   height: 200px;
   line-height: 1.5;
 }
-.content .right-col .block4 .block-education .normal-bold-text {
+.content .right-col .my-education .my-education__content .normal-bold-text {
   font-weight: bold;
   margin-left: 35px;
 }
-.content .right-col .block4 .block-education .normal-bold-text {
+.content .right-col .my-education .my-education__content .normal-bold-text {
   font-weight: bold;
   margin-left: 35px;
 }
-.content .right-col .block4 .block-education .normal-text {
+.content .right-col .my-education .my-education__content .normal-text {
   margin-left: 35px;
 }
-.content .right-col .block4 .block-education .normal-text {
+.content .right-col .my-education .my-education__content .normal-text {
   margin-left: 35px;
 }
-.content .right-col .block5 .icon-like {
+.content .right-col .my-qualities .my-qualities__icon {
   width: 21px;
   height: 18px;
   background-image: url("img/like.png");
@@ -230,24 +230,24 @@
   margin-right: 10px;
   float: left;
 }
-.content .right-col .block5 .qualities {
+.content .right-col .my-qualities .my-qualities__text {
   margin-bottom: 10px;
   margin-left: 10px;
   color: black;
   font-size: 30px;
 }
-.content .right-col .block5 .line {
+.content .right-col .my-qualities .line {
   width: 400px;
   margin-bottom: 20px;
   margin-left: 35px;
   border-width: 1px;
   border-color: #4a4a4a;
 }
-.content .right-col .block5 .block-qualities {
+.content .right-col .my-qualities .my-qualities__content {
   height: 198px;
   margin-left: 35px;
 }
-.content .right-col .block5 .block-qualities li {
+.content .right-col .my-qualities .my-qualities__content li {
   line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
