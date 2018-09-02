@@ -79,6 +79,14 @@
   margin-right: 10px;
   float: left;
 }
+.content .left-col .my-contacts .my-contacts__content .my-contacts__answer .my-contacts__telephone .telephone {
+  color: white;
+  text-decoration: none;
+}
+.content .left-col .my-contacts .my-contacts__content .my-contacts__answer .my-contacts__mail .mail {
+  color: white;
+  text-decoration: none;
+}
 .content .left-col .my-skills {
   margin-left: 15px;
 }
